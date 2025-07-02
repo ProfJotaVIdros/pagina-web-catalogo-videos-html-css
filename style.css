@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap");
+
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: "Bitcount Grid Double", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 32px;
+    color: red;
+}
+
+.chamada {
+    background: #555;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: red;
+}
